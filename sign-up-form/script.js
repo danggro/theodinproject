@@ -14,23 +14,23 @@ for (containerInput of arrayContainerInput) {
 }
 
 firstName.addEventListener('input', function () {
-  validation(firstName, 'patternMismatch', true, "Are you Elon's son?")
   validation(firstName, 'valueMissing', true, 'Value is missing')
+  validation(firstName, 'patternMismatch', true, "Are you Elon's son?")
 })
 
 lastName.addEventListener('input', function () {
-  validation(lastName, 'patternMismatch', true, "Are you Elon's son?")
   validation(lastName, 'valueMissing', true, 'Value is missing')
+  validation(lastName, 'patternMismatch', true, "Are you Elon's son?")
 })
 
 email.addEventListener('input', function () {
-  validation(email, 'valid', false, 'Email not valid')
   validation(email, 'valueMissing', true, 'Value is missing')
+  validation(email, 'valid', false, 'Email not valid')
 })
 
 phoneNumber.addEventListener('input', function () {
-  validation(phoneNumber, 'patternMismatch', true, 'Phone number not valid')
   validation(phoneNumber, 'valueMissing', true, 'Value is missing')
+  validation(phoneNumber, 'patternMismatch', true, 'Phone number not valid')
 })
 
 password.addEventListener('input', function () {
