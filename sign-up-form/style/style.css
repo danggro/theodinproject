@@ -8,21 +8,19 @@
 }
 
 body {
-  display: flex;
   height: 100vh;
+  display: flex;
   background-color: var(--bg-black);
-  overflow: hidden;
 }
 
 header {
   width: 35%;
   position: relative;
-}
-
-header img {
+  background: url(../util/background.jpg);
   background-size: cover;
-  width: 100%;
-  z-index: -1;
+  background-position: center;
+  max-height: 100%;
+  border-right: 2px solid var(--yellow) !important;
 }
 
 #text-logo {
@@ -31,7 +29,7 @@ header img {
   color: var(--yellow);
   left: 53%;
   translate: -50%;
-  top: 38%;
+  top: 32%;
   text-align: center;
 }
 
@@ -48,18 +46,16 @@ header img {
 
 main {
   width: 65%;
+  height: fit-content;
   font-family: Roboto, sans-serif;
-  border-left: 2px solid var(--yellow);
   color: var(--white);
-  padding: 0 3%;
+  padding: 2% 3% 0 3%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 main > div p {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
 }
 
@@ -68,7 +64,7 @@ main > div p:first-child {
 }
 
 form {
-  width: 100%;
+  width: min(786px, 100%);
 }
 
 fieldset {
