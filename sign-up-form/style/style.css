@@ -16,7 +16,7 @@ body {
 header {
   width: 35%;
   position: relative;
-  background: url(../util/background.jpg);
+  background: url(../assets/background.jpg);
   background-size: cover;
   background-position: center;
   max-height: 100%;

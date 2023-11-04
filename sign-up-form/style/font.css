@@ -1,43 +1,43 @@
 @font-face {
   font-family: Roboto;
-  src: url('../util/font/Roboto/Roboto-Regular.ttf');
+  src: url('../assets/font/Roboto/Roboto-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Roboto;
-  src: url('../util/font/Roboto/Roboto-Bold.ttf');
+  src: url('../assets/font/Roboto/Roboto-Bold.ttf');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: Roboto;
-  src: url('../util/font/Roboto/Roboto-Italic.ttf');
+  src: url('../assets/font/Roboto/Roboto-Italic.ttf');
   font-style: italic;
   font-weight: normal;
 }
 
 @font-face {
   font-family: Lato;
-  src: url('../util/font/Lato/Lato-Regular.ttf');
+  src: url('../assets/font/Lato/Lato-Regular.ttf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: Lato;
-  src: url('../util/font/Lato/Lato-Bold.ttf');
+  src: url('../assets/font/Lato/Lato-Bold.ttf');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'fontello';
-  src: url('../util/font/Fontello/fontello.eot');
-  src: url('../util/font/Fontello/fontello.eot') format('embedded-opentype'),
-    url('../util/font/Fontello/fontello.woff') format('woff'),
-    url('../util/font/Fontello/fontello.ttf') format('truetype'),
-    url('../util/font/Fontello/fontello.svg') format('svg');
+  src: url('../assets/font/Fontello/fontello.eot');
+  src: url('../assets/font/Fontello/fontello.eot') format('embedded-opentype'),
+    url('../assets/font/Fontello/fontello.woff') format('woff'),
+    url('../assets/font/Fontello/fontello.ttf') format('truetype'),
+    url('../assets/font/Fontello/fontello.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
