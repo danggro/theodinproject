@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | Moon Group</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/font.css" />
+  </head>
+  <body>
+    <header>
+      <div id="text-logo">
+        <h1>MOON</h1>
+        <h2>GROUP</h2>
+      </div>
+    </header>
+    <main>
+      <div>
+        <p>
+          This is not a real online service! You know need something like this
+          in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <form action="">
+        <fieldset class="fieldset">
+          <legend>Let's do this</legend>
+          <div class="container-input">
+            <label for="first_name">FIRST NAME</label>
+            <input
+              required
+              type="text"
+              name="first_name"
+              id="first_name"
+              placeholder=""
+              pattern="[a-zA-Z]*"
+            />
+          </div>
+          <div class="container-input">
+            <label for="last_name">LAST NAME</label>
+            <input
+              required
+              type="text"
+              name="last_name"
+              id="last_name"
+              placeholder=""
+              pattern="[a-zA-Z]*"
+            />
+          </div>
+          <div class="container-input">
+            <label for="email">EMAIL ( FORMAT: JOHN@EMAIL.COM )</label>
+            <input
+              required
+              type="email"
+              name="email"
+              id="email"
+              placeholder=""
+            />
+          </div>
+          <div class="container-input">
+            <label for="phone">PHONE NUMBER ( FORMAT: +62812-3456-7891 )</label>
+            <input
+              required
+              type="text"
+              name="phone"
+              id="phone"
+              pattern="[\+]62\d{3}[\-]\d{4}[\-]\d{4}"
+              placeholder=""
+            />
+          </div>
+          <div class="container-input">
+            <label for="password">PASSWORD</label>
+            <input
+              required
+              type="password"
+              name="password"
+              id="password"
+              minlength="8"
+              placeholder=""
+            />
+          </div>
+          <div class="container-input">
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+            <input
+              required
+              type="password"
+              name="confirm_password"
+              id="confirm_password"
+              minlength="8"
+              placeholder=""
+            />
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+        <p>Already have an account? <a href="#">Log In</a></p>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
